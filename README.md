@@ -1,0 +1,3 @@
+Created this folder locally when I had just started college. Practiced basic dsa here, then used it for safekeeping college lab class codes. Vaguely remember it, but I guess I used for some college mini projects of python too(I guess, the movie recommendation system). I don't use it that much nowadays.
+Anyways, I wanted to clear some space locally, but didn't want to delete this folder(reminded me of where I started, where I am now, And where I need to go). So yeah, just keeping them here on github.
+IF you actually read all of it, thanks.
