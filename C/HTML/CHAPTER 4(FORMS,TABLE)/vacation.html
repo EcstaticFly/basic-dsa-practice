@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Form</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1 align="center">Vacation to Iceland</h1>
+            <hr>
+            <div>
+                <u>
+                    <h3>Traveller Details</h3>
+                </u>
+                <label for="Name">
+                    Name:<input type="text" name="Name" id="Name" placeholder="Enter Traveller Name">
+                    <br><br>
+                </label>
+                <label for="age">
+                    Age:<input type="number" name="age" id="age" placeholder="Enter Your Age">
+                    <br><br>
+                </label>
+                <label for="email">
+                    Email:<input type="email" name="email" id="email" placeholder="Enter Your Email-Id">
+                    <br><br>
+                </label>
+                <label for="male">
+                    <input type="radio" name="gender" id="male">Male
+                </label>
+                <label for="female">
+                    <input type="radio" name="gender" id="female">Female
+                </label>
+                <label for="other">
+                    <input type="radio" name="gender" id="other">Other
+                    <br><br>
+                </label>
+                <label for="date1">
+                    Departure Date:<input type="date" name="date1" id="date1">
+                    <br><br>
+                </label>
+                <label for="">
+                    Return Date:<input type="date" name="date2" id="date2">
+                    <br><br>
+                </label>
+                <label for="package">
+                    <select name="package" id="package">
+                        <option value="no package">Select Package Type</option>
+                        <option value="basic">Basic</option>
+                        <option value="premium">Premium</option>
+                        <option value="ultra premium">Ultra Premium</option>
+                    </select>
+                    <br><br>
+                </label>
+                <hr>
+            </div>
+            <div>
+                <u>
+                    <h3>Select Activities</h3>
+                </u>
+                <label for="activity1">
+                    <input type="checkbox" name="activity1" id="activity1">Rock Climbing
+                    <br>
+                </label>
+                <label for="activity2">
+                    <input type="checkbox" name="activity2" id="activity2">Trekking
+                    <br>
+                </label>
+                <label for="activity3">
+                    <input type="checkbox" name="activity3" id="activity3">Rafting
+                    <br>
+                </label>
+                <label for="activity4">
+                    <input type="checkbox" name="activity4" id="activity4">Volcano Exploration
+                    <br>
+                </label>
+            </div>
+            <hr>
+            <div>
+                <u>
+                    <h3>Payment Details</h3>
+                </u>
+                <label for="payment">
+                    <select name="payment" id="payment">
+                        <option value="no payment">Select Payment Mode</option>
+                        <option value="debit">Debit Card</option>
+                        <option value="credit">Credit Card</option>
+                        <option value="net">Net Banking</option>
+                        <option value="upi">UPI</option>
+                    </select>
+                    <br><br>
+                </label>
+                <label for="amount">
+                    Enter Amount:<input type="number" name="amount" id="amount" placeholder="Enter Amount">
+                    <br><br>
+                </label>
+                <label for="pay">
+                    <button>Pay</button>
+                </label>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2 align="center">Thanks for chosing Utsav Travels!🙏</h2>
+    </footer>
+</body>
+
+</html>
